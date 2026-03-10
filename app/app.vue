@@ -98,7 +98,18 @@ provide(
         />
       </ClientOnly>
     </PhotosProvider>
+    
   </UApp>
+  <footer class="border-t border-neutral-200 dark:border-neutral-800 mt-8">
+      <div class="container mx-auto px-4 py-6 text-center text-sm text-neutral-600 dark:text-neutral-400">
+        <p>© 2024 Your Company. All rights reserved.</p>
+        <p class="mt-2">
+          <a href="https://beian.miit.gov.cn" target="_blank" rel="noopener noreferrer">
+            你的备案号：xxxx
+          </a>
+        </p>
+      </div>
+    </footer>
 </template>
 
 <style></style>
